@@ -3,6 +3,7 @@ import logo from '../assets/HERO1_logo.png';
 import logo2 from '../assets/Vector.png';
 import logo3 from '../assets/Vector1.png';
 import DropDown from './DropDown';
+import 'layout.css'
 const Header = () => {
   return (
     <div className="container">

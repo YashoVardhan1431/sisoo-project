@@ -10,6 +10,7 @@ import TrainingProgramme from './components/TrainingProgramme';
 import Ongoing from './components/Ongoing';
 import TrainerCard from './components/TrainerCard';
 import Profile from './components/Profile';
+import Main from './components/Layout/Main';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/otp-page" element={<Otppage />} />
         <Route  path  = "/trainers" element= {<TrainerCard />} />
         < Route path = "/profile"  element = {<Profile />} />
+        < Route path = "/main" element ={<Main />} />
       </Routes>
     </Router>
     </div>
