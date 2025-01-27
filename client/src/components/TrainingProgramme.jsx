@@ -5,6 +5,7 @@ import { SiPython, SiFigma, SiAdobexd } from "react-icons/si";
 import { Stepper, Step } from "react-form-stepper";
 
 const TrainingProgramme = () => {
+  // eslint-disable-next-line no-unused-vars
   const [currentStep, setCurrentStep] = useState(0);
 
   const steps = [
